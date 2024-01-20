@@ -12,3 +12,13 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const myName = 'Yury Kavalenka'
+
+console.log(myName instanceof String)
+console.log(typeof myName === 'string')
+
+const myNameUpperCase = myName.toUpperCase()
+
+console.log(myNameUpperCase)
+
