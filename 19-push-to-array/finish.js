@@ -6,3 +6,11 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const cars = ['bmw', 'ford', 'seat']
+
+cars.push('man')
+cars.push('volvo')
+
+console.log(cars)
+console.log(cars.length)
