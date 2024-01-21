@@ -9,9 +9,13 @@
 let myVariable1 = 10
 let myVariable2 = '5'
 
-// Напишите код здесь
+const comparisonOfVariables = parseInt(myVariable1) <= parseInt(myVariable2)
+
+console.log(comparisonOfVariables)
 
 myVariable1 = '20'
 myVariable2 = 100
 
+const comparisonOfVariables2 = parseInt(myVariable1) <= parseInt(myVariable2)
 // Напишите код здесь
+console.log(comparisonOfVariables2)
