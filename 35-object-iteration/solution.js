@@ -16,6 +16,8 @@ const myObject = {
 
 const objectKeys = Object.keys(myObject)
 
+console.log(objectKeys)
+
 objectKeys.forEach((key) => {
   if (key === 'key1' || key === 'key3') {
     console.log(myObject[key])
